@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Угадай число</title>
+    <style>
+        .dark {
+            background-color: #222;
+            color: white;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="theme">Тёмная тема</button>
+
+    <h1>Угадай число от 1 до 10</h1>
+
+    <input type="text" id="inp" placeholder="Введи число">
+    <button id="btn">Проверить</button>
+    <button id="restart">Новая игра</button>
+
+    <p id="msg"></p>
+    <p>Попытки: <span id="count">0</span> / 5</p>
+
+    <p>Мои числа:</p>
+    <ul id="list"></ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
